@@ -21,6 +21,14 @@ print_green "pip3 instalado com sucesso."
 pip3 install telepot > /dev/null
 print_green "telepot instalado com sucesso."
 
+# Instalação do PHP
+apt install -y php > /dev/null
+print_green "PHP instalado com sucesso."
+
+# Configuração do termux-setup-storage
+termux-setup-storage
+print_green "Configuração termux-setup-storage realizada com sucesso."
+
 # Execução do script.py em segundo plano
 print_green "Iniciando script.py em segundo plano..."
 nohup python3 script.py > /dev/null 2>&1 &
