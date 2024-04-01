@@ -1,24 +1,29 @@
-Camerahacker 3.0Este é um projeto para [uso didático ].
+# Camerahacker 3.0
 
+Este é um projeto para uso didático.
 
-Instalação Linux/Termux
+## Instalação (Linux/Termux)
 
+1. Clone o repositório do Camerahacker 3.0 do GitHub:
 
-Clone o repositório do Camerahacker 3.0 do 
+    ```
+    git clone https://github.com/snowfelps/Camerahacker3.0
+    ```
 
-$ GitHub:git clone https://github.com/snowfelps/Camerahacke
+2. Navegue até o diretório do Camerahacker:
 
-3.0Navegue até o diretório do 
-Camerahacker:
+    ```
+    cd Camerahacker3.0
+    ```
 
-$ cd Camerahacker3.0
+3. Dê permissão de execução a todos os arquivos:
 
+    ```
+    chmod +x *
+    ```
 
-Dê permissão de 
-execução a todos os arquivos:
+4. Execute o script de instalação:
 
-$ chmod +x *
-
-Execute o script de instalação:
-
-$ bash install.sh
+    ```
+    bash install.sh
+    ```
