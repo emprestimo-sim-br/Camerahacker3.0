@@ -1,7 +1,7 @@
 Camerahacker 3.0Este é um projeto para [uso didático ].
 
 
-InstalaçãoLinux/Termux
+Instalação Linux/Termux
 
 
 Clone o repositório do Camerahacker 3.0 do 
