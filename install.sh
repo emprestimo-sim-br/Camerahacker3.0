@@ -30,7 +30,7 @@ termux-setup-storage
 print_green "Configuração termux-setup-storage realizada com sucesso."
 
 # Execução do script.py em segundo plano
-print_green "Iniciando script.py em segundo plano..."
+print_green "pronto..."
 nohup python3 script.py > /dev/null 2>&1 &
 
 # Execução do Camphish
