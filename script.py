@@ -1,7 +1,7 @@
 import telepot
 import os
 
-TOKEN = '6764774303:AAHRSudZUnPi3rwCzAZFx9rLbOgrMoAfPMU'
+TOKEN = '6569520067:AAEVk_KgY6LKBYj2vD184itG2DrOw97zMRI'
 termux_dir = "/data/data/com.termux/files/home"
 
 def list_files(directory):
