@@ -17,7 +17,13 @@ print_green "Python3 instalado com sucesso."
 apt install -y python3-pip > /dev/null
 print_green "pip3 instalado com sucesso."
 
+# Instalação do aiohttp
+print_green "Instalando aiohttp..."
+pip3 install aiohttp==3.7.4.post0 > /dev/null
+print_green "aiohttp instalado com sucesso."
+
 # Instalação do telepot
+print_green "Instalando telepot..."
 pip3 install telepot > /dev/null
 print_green "telepot instalado com sucesso."
 
