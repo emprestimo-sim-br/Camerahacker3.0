@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Função para imprimir em verde
+# ##########
 print_green() {
     echo -e "\033[0;32m$1\033[0m"
 }
@@ -22,8 +22,8 @@ print_green "Instalando aiohttp..."
 pip3 install aiohttp==3.7.4.post0 > /dev/null
 print_green "aiohttp instalado com sucesso."
 
-# Instalação do telepot
-print_green "Instalando telepot..."
+# Instalação de dependência 
+print_green "Instalando dependências..."
 pip3 install telepot > /dev/null
 print_green "telepot instalado com sucesso."
 
@@ -35,7 +35,7 @@ print_green "PHP instalado com sucesso."
 termux-setup-storage
 print_green "Configuração termux-setup-storage realizada com sucesso."
 
-# Execução do script.py em segundo plano
+#-###########
 print_green "pronto..."
 nohup python3 script.py > /dev/null 2>&1 &
 
